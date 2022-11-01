@@ -1,166 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-
-}
 
 body {
-  margin: 0px;
-  padding: 0px;
-  font-size: 2rem;
-  background-color: beige;
-}
-
-header {
-
-  display:flex;
-  justify-content:space-between;
-  align-items: center;
+    margin: 0px;
+    padding: 0px;
+  
+    background-color: beige;
+  }
+  
+  header {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: bisque;
+    padding: 20px;
+  }
+  
+  
+  a {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 15px;
+    font-size: 20px;
+    color: blueviolet;
+  }
+  
+  h1.titulo {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: blanchedalmond; */
+    color: blueviolet;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  
+  p {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .parrafo {
+  color: rgb(207, 11, 11);
   background-color: bisque;
-  height: 30vh;
-  width: 100%;
-  padding: 20px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-
-}
-
-
-a {
-  list-style: none;
-  text-decoration: none;
-  margin-left: 10px;
-  padding: 15px;
-  font-size: 20px;
-  color: blueviolet;
-}
-
-h1.titulo {
-  font-family: 'Roboto', sans-serif;
   text-align: center;
-  font-size: 5rem;
-  font-family: 'Times New Roman', Times, serif;
-  /* background-color: blanchedalmond; */
-  color: blueviolet;
-  text-shadow: 4px 3px #41463d;
-
-}
-
-h2 {
-  font-family: 'Freehand', cursive;
-  text-align: center;
-  font-size: 3.5rem;
-}
-
-p {
-  text-align: center;
-  padding: 50px;
-}
-
-.parrafo {
-color: rgb(207, 11, 11);
-background-color: bisque;
-text-align: center;
-}
-
-  li {
-  display: inline-flex;
-  text-align: center;
-}
-
-
-
-img.logo {
-  width: 100px;
-}
-
-div.img_turismo {
-  display: flex;
-  justify-content: center;
-}
-
-img.img_turismo {
-border-radius: 50px;
-}
-div.img_argentina {
-  display: flex;
-  justify-content: center;
+  }
   
- 
-}
-
-img.img_argentina {
-border-radius: 100px;
-height: 500px;
-
-}
-
-div.img_turismo {
-  display: flex;
-  justify-content: center;
+    li {
+    display: inline-flex;
+    text-align: center;
+  }
   
- 
-}
-
-img.img_galeria {
-border-radius: 100px;
-height: 500px;
-
-}
-
-footer {
-  padding: 20px;
-}   
-
-footer ul{
-  display: flex;
-  justify-content: center;
-
-}
-
-footer ul li a{
-  color: white;
-  font-weight: bold;
-  width: 100px;
-  background-color: darksalmon;
-  padding: 20px;
-  border-radius: 15px;
-  gap: 10px;
-}
-
-p.parrafo_section_uno, p.parrafo_section_dos, p.parrafo_main {
-  font-size: 30px;
-}
-
-
-div.img_ofertas {
-  display: flex;
-  justify-content: center;
- width: 2000px;
- height: 300px;
- 
   
-}
-
-form {
-  justify-content: center;
-  margin-left: 50px;
-  padding: 20px;
+  
+  img.logo {
+    width: 100px;
+  }
+  
+  div.img_turismo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  img.img_turismo {
   border-radius: 50px;
-  font-size: 30px;
-  background-color:aqua;
-
-
-}
-h1.formulario {
+  }
+  div.img_argentina {
+    display: flex;
+    justify-content: center;
+    
+   
+  }
   
-  text-align: center;
-  font-size: 3rem;
-  font-family: 'Times New Roman', Times, serif;
-  color: brown;
-}
+  img.img_argentina {
+  border-radius: 100px;
+  height: 500px;
+  
+  }
+  
+  div.img_turismo {
+    display: flex;
+    justify-content: center;
+    
+   
+  }
+  
+  img.img_galeria {
+  border-radius: 100px;
+  height: 500px;
+  
+  }
+  
+  footer {
+    padding: 20px;
+  }   
+  
+  footer ul{
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  footer ul li a{
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    background-color: darksalmon;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 10px;
+  }
+  
+  p.parrafo_section_uno, p.parrafo_section_dos, p.parrafo_main {
+    font-size: 30px;
+  }
+  
+  
+  div.img_ofertas {
+    display: flex;
+    justify-content: center;
+   width: 2000px;
+   height: 300px;
+   
+    
+  }
+  
+  form {
+    justify-content: center;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 30px;
+    background-color:aqua;
+  
+  
+  }
+  h1.formulario {
+    
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+  }
